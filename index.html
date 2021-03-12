@@ -7,34 +7,42 @@
     <title>Vlaky</title>
     <style>
         div.text {
-            position: fixed;
-            top: 50%;
-            left: 50%;
-
-            transform: translate(-50%, -50%);
+            margin: auto;
+            display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+            
 
 
         }
 
         h1 {
             text-align: center;
+            -ms-word-wrap: break-word;
+            overflow-wrap: break-word;
             font-size: 72px;
             font-family: Arial;
             color: #cc00ff;
             -webkit-text-stroke-width: 3px;
-            -webkit-text-stroke-color:black;
-            
+            -webkit-text-stroke-color: black;
+
         }
 
-        html{
+        html {
 
             background-image: url("https://eskipaper.com/images/train-wallpaper-10.jpg");
             height: 100%;
 
             /* Center and scale the image nicely */
-            background-position:center;
-            background-repeat:no-repeat;
-            background-size:cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
         }
     </style>
 </head>
@@ -43,7 +51,7 @@
 
     <div class="bg"></div>
     <div class="text">
-        <h1>Vláčik go brrrrrrrrrrrrrrrrrrrrrrrr </h1>
+        <h1>Vláčik go brrrrrrrrrrrrrrr </h1>
     </div>
 
 
